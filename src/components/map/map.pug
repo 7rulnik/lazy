@@ -1,0 +1,17 @@
+- var styles = require('./map.sss.json')
+
+div(class=styles.map)
+	#ya-map(class=styles.yaMap)
+	.container(class=styles.container)
+		div(class=styles.contacts)
+			h1(class=styles.heading) Контакты
+			div Улица Катерная
+			div +7 914 700-35-24
+			span WhatsApp
+			span Telegram
+			span Viber
+
+script(
+	async
+	src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=Lch_XMiN38MtKY_OswL93Hnt7opCpSHj&width=100%&height=500&lang=ru_RU&sourceType=constructor&scroll=false&id=ya-map"
+)

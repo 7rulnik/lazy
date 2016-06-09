@@ -1,0 +1,45 @@
+{
+  "name": "lazy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7rulnik/lazy.git"
+  },
+  "author": "Valentin Semirulnik <v7rulnik@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7rulnik/lazy/issues"
+  },
+  "homepage": "https://github.com/7rulnik/lazy#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "browser-sync": "^2.12.12",
+    "cssnano": "^3.6.2",
+    "del": "^2.2.0",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-cached": "^1.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-eslint": "^2.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-postcss": "^6.1.1",
+    "gulp-pug": "^3.0.2",
+    "gulp-remember": "^0.3.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "lost": "^6.8.0",
+    "postcss-assets": "^4.1.0",
+    "postcss-import": "^8.1.2",
+    "postcss-modules": "^0.5.0",
+    "postcss-sorting": "^1.5.0",
+    "sugarss": "^0.1.3"
+  },
+  "dependencies": {
+    "sanitize.css": "10up/sanitize.css"
+  }
+}

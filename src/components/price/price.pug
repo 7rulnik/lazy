@@ -1,0 +1,13 @@
+- var styles = require('./price.sss.json')
+
+div(class=styles.price)
+	.container
+		h1(class=styles.heading) И сколько это стоит?
+		div(class=styles.container)
+			div(class=styles.item)
+				div(class=styles.money) 8 000₽
+				div(class=styles.type) в час
+			div(class=styles.or) или
+			div(class=styles.item)
+				div(class=styles.money) 50 000₽
+				div(class=styles.type) за день
